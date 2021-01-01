@@ -1,0 +1,23 @@
+.slide {
+    display: none;
+    @apply text-white-default;
+}
+
+.slide.future {
+    display: block;
+    @apply opacity-60;
+}
+
+.slide.past {
+    display: block;
+    @apply opacity-60;
+}
+
+.slide.active {
+    display: block;
+    @apply opacity-100;
+}
+
+#why {
+    @apply opacity-100;
+}

@@ -1,0 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'bariolregular';
+  src: url('http://s.okno.rs:4433/font/bariol/bariol-regular-webfont.woff2') format('woff2'),
+  url('http://s.okno.rs:4433/font/bariol/bariol-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'plan9regular';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('plan9regular '),
+    local('plan9regular'),
+    url('http://s.okno.rs:4433/font/plan9/plan9.woff2') format('woff2'),
+    url('http://s.okno.rs:4433/font/plan9/plan9.woff') format('woff');
+}
+
+body {
+  font-family: 'bariolregular';
+  @apply text-white-default;
+}
